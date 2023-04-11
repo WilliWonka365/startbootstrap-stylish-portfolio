@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description' content='')
         meta(name='author' content='')
 
-        title Stylish Portfolio - Start Bootstrap Template
+        title MW-Solutions
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -33,134 +33,126 @@ html(lang='en')
         nav#sidebar-wrapper
             ul.sidebar-nav
                 li.sidebar-brand
-                    a(href='#page-top') Start Bootstrap
+                    a(href='#page-top') Navigation
                 li.sidebar-nav-item
                     a(href='#page-top') Home
                 li.sidebar-nav-item
-                    a(href='#about') About
+                    a(href='#about') Über mich
                 li.sidebar-nav-item
-                    a(href='#services') Services
+                    a(href='#services') Leistungen
+                //- li.sidebar-nav-item
+                //-     a(href='#portfolio') Portfolio
                 li.sidebar-nav-item
-                    a(href='#portfolio') Portfolio
-                li.sidebar-nav-item
-                    a(href='#contact') Contact
+                    a(href='#contact') Kontakt
 
         // Header
         header.masthead.d-flex.align-items-center
-            .container.px-4.px-lg-5.text-center
-                h1.mb-1 Stylish Portfolio
+            .container.px-4.px-lg-5.text-center(style='color:white;')
+                h1.mb-1 Mathias Wilhelm, MSc.
                 h3.mb-5
-                    em A Free Bootstrap Theme by Start Bootstrap
-                a.btn.btn-primary.btn-xl(href='#about') Find Out More
+                    em Softwareentwickler für .NET-Businessanwendungen & Web
+                a.btn.btn-primary.btn-xl(href='#about') Entdecken Sie mehr
 
         // About
         section#about.content-section.bg-light
             .container.px-4.px-lg-5.text-center
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-lg-10
-                        h2 Stylish Portfolio is the perfect theme for your next project!
-                        p.lead.mb-5
-                            | This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-                            a(href='https://unsplash.com/') Unsplash
-                            | !
-                        a.btn.btn-dark.btn-xl(href='#services') What We Offer
+                        img(src='./assets/img/portrait.svg' alt='portrait' style='width:200px;height:200px;margin-bottom:20px;')
+                        h2 Softwareentwicklung ist meine Leidenschaft!
+                        p.lead.mb-5 Ich entwickle schon seit vielen Jahren an unterschiedlichsten Softwarelösungen mit und habe mir so das Know-how erarbeitet, um Programme ganz nach Ihren Wünschen zu gestalten.
+                        a.btn.btn-dark.btn-xl(href='#services') Leistungen
 
         // Services
         section#services.content-section.bg-primary.text-white.text-center
             .container.px-4.px-lg-5
                 .content-section-heading
                     h3.text-secondary.mb-0 Services
-                    h2.mb-5 What We Offer
+                    h2.mb-5 Unsere Leistungen
                 .row.gx-4.gx-lg-5
                     .col-lg-3.col-md-6.mb-5.mb-lg-0
                         span.service-icon.rounded-circle.mx-auto.mb-3
                             i.icon-screen-smartphone
                         h4
-                            strong Responsive
-                        p.text-faded.mb-0 Looks great on any screen size!
+                            strong Mobil-Anwendungen
+                        p.text-faded.mb-0 Für iOS und Android-Geräte
                     .col-lg-3.col-md-6.mb-5.mb-lg-0
+                        span.service-icon.rounded-circle.mx-auto.mb-3
+                            i.icon-screen-desktop
+                        h4
+                            strong Windows-Anwendungen
+                        p.text-faded.mb-0 Individualisiert für eine optimale Umsetzung Ihrer Anwendungsfälle
+                    .col-lg-3.col-md-6.mb-5.mb-md-0
                         span.service-icon.rounded-circle.mx-auto.mb-3
                             i.icon-pencil
                         h4
-                            strong Redesigned
-                        p.text-faded.mb-0 Freshly redesigned for Bootstrap 5.
-                    .col-lg-3.col-md-6.mb-5.mb-md-0
-                        span.service-icon.rounded-circle.mx-auto.mb-3
-                            i.icon-like
-                        h4
-                            strong Favorited
-                        p.text-faded.mb-0
-                            | Millions of users
-                            i.fas.fa-heart
-                            | Start Bootstrap!
+                            strong Webanwendungen
+                        p.text-faded.mb-0 Immer zugriffsbereit ohne lästige Installationen und hoch skalierber
                     .col-lg-3.col-md-6
                         span.service-icon.rounded-circle.mx-auto.mb-3
                             i.icon-mustache
                         h4
-                            strong Question
-                        p.text-faded.mb-0 I mustache you a question...
+                            strong Beratung
+                        p.text-faded.mb-0 Wir Beraten Sie in allen IT-Themen
 
         // Callout
         section.callout
-            .container.px-4.px-lg-5.text-center
-                h2.mx-auto.mb-5
-                    | Welcome to
-                    em your
-                    | next website!
-                a.btn.btn-primary.btn-xl(href='https://startbootstrap.com/theme/stylish-portfolio/') Download Now!
+            .container.px-4.px-lg-5.text-center(style='color:white;')
+                h2.mx-auto.mb-5 Haben wir Ihr Interesse geweckt?
+                a.btn.btn-primary.btn-xl(href='#page-end') Kontaktieren Sie uns
 
-        // Portfolio
-        section#portfolio.content-section
-            .container.px-4.px-lg-5
-                .content-section-heading.text-center
-                    h3.text-secondary.mb-0 Portfolio
-                    h2.mb-5 Recent Projects
-                .row.gx-0
-                    .col-lg-6
-                        a.portfolio-item(href='#!')
-                            .caption
-                                .caption-content
-                                    .h2 Stationary
-                                    p.mb-0 A yellow pencil with envelopes on a clean, blue backdrop!
-                            img.img-fluid(src='assets/img/portfolio-1.jpg', alt='...')
-                    .col-lg-6
-                        a.portfolio-item(href='#!')
-                            .caption
-                                .caption-content
-                                    .h2 Ice Cream
-                                    p.mb-0 A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!
-                            img.img-fluid(src='assets/img/portfolio-2.jpg', alt='...')
-                    .col-lg-6
-                        a.portfolio-item(href='#!')
-                            .caption
-                                .caption-content
-                                    .h2 Strawberries
-                                    p.mb-0 Strawberries are such a tasty snack, especially with a little sugar on top!
-                            img.img-fluid(src='assets/img/portfolio-3.jpg', alt='...')
-                    .col-lg-6
-                        a.portfolio-item(href='#!')
-                            .caption
-                                .caption-content
-                                    .h2 Workspace
-                                    p.mb-0 A yellow workspace with some scissors, pencils, and other objects.
-                            img.img-fluid(src='assets/img/portfolio-4.jpg', alt='...')
+        //- // Portfolio
+        //- section#portfolio.content-section
+        //-     .container.px-4.px-lg-5
+        //-         .content-section-heading.text-center
+        //-             h3.text-secondary.mb-0 Portfolio
+        //-             h2.mb-5 Recent Projects
+        //-         .row.gx-0
+        //-             .col-lg-6
+        //-                 a.portfolio-item(href='#!')
+        //-                     .caption
+        //-                         .caption-content
+        //-                             .h2 Stationary
+        //-                             p.mb-0 A yellow pencil with envelopes on a clean, blue backdrop!
+        //-                     img.img-fluid(src='assets/img/portfolio-1.jpg', alt='...')
+        //-             .col-lg-6
+        //-                 a.portfolio-item(href='#!')
+        //-                     .caption
+        //-                         .caption-content
+        //-                             .h2 Ice Cream
+        //-                             p.mb-0 A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!
+        //-                     img.img-fluid(src='assets/img/portfolio-2.jpg', alt='...')
+        //-             .col-lg-6
+        //-                 a.portfolio-item(href='#!')
+        //-                     .caption
+        //-                         .caption-content
+        //-                             .h2 Strawberries
+        //-                             p.mb-0 Strawberries are such a tasty snack, especially with a little sugar on top!
+        //-                     img.img-fluid(src='assets/img/portfolio-3.jpg', alt='...')
+        //-             .col-lg-6
+        //-                 a.portfolio-item(href='#!')
+        //-                     .caption
+        //-                         .caption-content
+        //-                             .h2 Workspace
+        //-                             p.mb-0 A yellow workspace with some scissors, pencils, and other objects.
+        //-                     img.img-fluid(src='assets/img/portfolio-4.jpg', alt='...')
 
-        // Call to Action
-        section.content-section.bg-primary.text-white
-            .container.px-4.px-lg-5.text-center
-                h2.mb-4 The buttons below are impossible to resist...
-                a.btn.btn-xl.btn-light.me-4(href='#!') Click Me!
-                a.btn.btn-xl.btn-dark(href='#!') Look at Me!
+        //- // Call to Action
+        //- section.content-section.bg-primary.text-white
+        //-     .container.px-4.px-lg-5.text-center
+        //-         h2.mb-4 The buttons below are impossible to resist...
+        //-         a.btn.btn-xl.btn-light.me-4(href='#!') Click Me!
+        //-         a.btn.btn-xl.btn-dark(href='#!') Look at Me!
 
         // Map
         #contact.map
-            iframe(src='https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A&output=embed')
+            iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.5821879073874!2d10.69999141583479!3d47.5175275021197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479cf6be857997d5%3A0x5ee4add5d2e6500f!2sRaintalweg%2015%2C%206600%20Oberletzen!5e0!3m2!1sde!2sat!4v1681229525836!5m2!1sde!2sat')
             br
             small
                 a(href='https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&aq=0&oq=twitter&sll=28.659344,-81.187888&sspn=0.128789,0.264187&ie=UTF8&hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&t=m&z=15&iwloc=A')
 
         // Footer
-        footer.footer.text-center
+        footer#page-end.footer.text-center
             .container.px-4.px-lg-5
                 ul.list-inline.mb-5
                     li.list-inline-item
@@ -172,7 +164,7 @@ html(lang='en')
                     li.list-inline-item
                         a.social-link.rounded-circle.text-white(href='#!')
                             i.icon-social-github
-                p.text-muted.small.mb-0 Copyright &copy; Your Website 2023
+                p.text-muted.small.mb-0 Copyright &copy; Mathias Wilhelm 2023
 
         // Scroll to Top Button
         a.scroll-to-top.rounded(href='#page-top')
