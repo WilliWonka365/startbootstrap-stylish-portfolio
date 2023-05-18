@@ -43,6 +43,8 @@ html(lang='en')
                 li.sidebar-nav-item
                     a(href='#portfolio') Individual-Software
                 li.sidebar-nav-item
+                    a(href='#technologies') Technologien
+                li.sidebar-nav-item
                     a(href='#contact') Kontakt
 
         // Header
@@ -93,20 +95,20 @@ html(lang='en')
                             i.fa.fa-phone(aria-hidden='true') 
                         h4
                             strong Beratung
-                        p.text-faded.mb-0 Wir beraten Sie bei allen IT-Themen
+                        p.text-faded.mb-0 Ich berate Sie gerne, egal ob zur Individualentwicklung oder allgemeinen IT-Themen
 
         // Portfolio
         section#portfolio.content-section
             .container.px-4.px-lg-5.text-center
                 .content-section-heading.text-center
-                    h3.text-secondary.mb-0 Unser Spezialgebiet
+                    h3.text-secondary.mb-0 Mein Spezialgebiet
                     h2.mb-5 Entwicklung von Individual-Software
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-lg-10
                         .h2 .NET-Technologie
-                        p.lead.mb-0 Mit den neuesten Versionen der .NET-Plattform entwickeln wir effiziente Geschäftsanwendungen.
+                        p.lead.mb-0 Mit den neuesten Versionen der .NET-Plattform entwickle ich auf Sie zugeschnittene Geschäftsanwendungen.
                         p.lead.mb-0 Durch den Einsatz moderner UI-Technologien können Anwendungen ganz nach ihrem Wunsch erstellt werden.
-                        p.lead.mb-0 Wir erweitern auch bestehende Applikationen, um eine optimale Integration in Ihrem Unternehmen zu ermöglichen.
+                        p.lead.mb-0 Ich erweitere auch bestehende Applikationen, um eine optimale Integration in Ihrem Unternehmen zu ermöglichen.
                         br
                         .h2 Angular Web-Anwendungen
                         p.lead.mb-0 Das Angular-Framework bietet die Möglichkeit Business-Anwendungen in das Web zu verlagern.
@@ -146,11 +148,55 @@ html(lang='en')
                     //-                 p.mb-0 A yellow workspace with some scissors, pencils, and other objects.
                     //-         img.img-fluid(src='assets/img/portfolio-4.jpg', alt='...')
 
+        // Technologies
+        section#technologies.content-section.bg-secondary.text-white.text-center
+            .container.px-4.px-lg-5
+                .content-section-heading
+                    h3.mb-0 Skills
+                    h2.mb-5 Spezialisierte Technologien
+                .row.gx-4.gx-lg-5
+                    .col-lg-3.col-md-6.mb-5.mb-lg-0
+                        span.service-icon.rounded-circle.mx-auto.mb-3
+                            img(src='./assets/img/net-core.svg' alt='net-core' style='width:60px;height:60px;margin-bottom:15px;')
+                        h4
+                            strong .NET Core
+                        p.text-faded.mb-0 Die plattformunabhängige Weiterentwicklung des .NET Framework
+                    .col-lg-3.col-md-6.mb-5.mb-lg-0
+                        span.service-icon.rounded-circle.mx-auto.mb-3
+                            img(src='./assets/img/azure.svg' alt='azure' style='width:60px;height:60px;margin-bottom:15px;')
+                        h4
+                            strong Azure
+                        p.text-faded.mb-0 Microsofts Plattform zum Bereitstellen von hochverfügbarar und maximal skalierbarer Software in der Cloud
+                    .col-lg-3.col-md-6
+                        span.service-icon.rounded-circle.mx-auto.mb-3
+                            img(src='./assets/img/google-material.svg' alt='google-material' style='width:100px;height:100px;margin-bottom:15px;')
+                        h4
+                            strong Material Design
+                        p.text-faded.mb-0 Komponenten zur schnelleren Enwicklung von Benutzeroberflächen, die gewohnten Designs entsprechen
+                    .col-lg-3.col-md-6.mb-5.mb-lg-0
+                        span.service-icon.rounded-circle.mx-auto.mb-3
+                            img(src='./assets/img/angular.png' alt='angular' style='width:100px;height:80px;margin-bottom:15px;')
+                        h4
+                            strong Angular
+                        p.text-faded.mb-0 Das von Google mitentwickelte Framwork zur Erstellung von komplexen Anwendungen im Web
+                    .col-lg-3.col-md-6.mb-5.mb-md-0
+                        span.service-icon.rounded-circle.mx-auto.mb-3
+                            img(src='./assets/img/bootstrap.svg' alt='bootstrap' style='width:100px;height:100px;margin-bottom:15px;')
+                        h4
+                            strong Bootstrap
+                        p.text-faded.mb-0 Eine moderne Technologie für das Design von Websiten mit der Philosophie "Mobile-First"
+                    .col-lg-3.col-md-6
+                        span.service-icon.rounded-circle.mx-auto.mb-3
+                            img(src='./assets/img/github.svg' alt='github' style='width:70px;height:70px;margin-bottom:15px;')
+                        h4
+                            strong Github
+                        p.text-faded.mb-0 Zur Sicherung und Verwaltung des Quellcodes für Ihre Software
+
         // Callout
         section.callout
             .container.px-4.px-lg-5.text-center(style='color:white;')
-                h2.mx-auto.mb-5 Haben wir Ihr Interesse geweckt?
-                a.btn.btn-primary.btn-xl(href='#page-end') Kontaktieren Sie uns
+                h2.mx-auto.mb-5 Wurde Ihr Interesse geweckt?
+                a.btn.btn-primary.btn-xl(href='#page-end') Kontaktieren Sie mich
 
         // Map
         #contact.map
@@ -170,7 +216,7 @@ html(lang='en')
                         a.social-link.rounded-circle.text-white.mr-3(href='tel:+436602897067')
                             i.fa.fa-phone(aria-hidden='true')
                     li.list-inline-item
-                        a.social-link.rounded-circle.text-white(href='#!')
+                        a.social-link.rounded-circle.text-white(href='https://www.linkedin.com/in/mathias-wilhelm-99a685277/')
                             i.icon-social-linkedin
                 p.text-muted.small.mb-0 Copyright &copy; Mathias Wilhelm 2023
 
